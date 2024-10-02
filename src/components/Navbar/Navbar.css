@@ -1,0 +1,23 @@
+navbar{
+    max-width: 1024px ;
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 32px;
+    background-color: var(--light-black);
+    position: fixed;
+}
+navbar .home{
+    font-size: 16px;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+navbar .home span{
+    color: var(--red-light);
+}
+navbar .details-section{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}

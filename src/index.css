@@ -1,0 +1,26 @@
+*,
+* ::after,
+* ::before{
+  box-sizing: border-box;
+  /* margin: 0px;
+  padding: 0px; */
+ 
+}
+:root{
+  --red-light:#E63946;
+  --red-pink:#FF6864;
+  --light-black:#181E1E;
+  --light-yellow:#FFCA28;
+}
+body{
+  font-family: "Inter" sans-serif;
+  margin: 0px;
+  
+}
+.wrapper{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+}
