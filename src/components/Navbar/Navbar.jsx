@@ -3,15 +3,15 @@ import "./Navbar.css"
 
 export default function Navbar() {
   return (
-    <navbar>
-      <p className='home'>Soun<span>DZing</span></p>
+    <nav>
+      <a href='#' className='home'>Soun<span>DZing</span></a>
       <div className='details-section'>
-        <a href='#about'>About</a>
+        <a href='#about' >About</a>
         <a href='#about'>CourseDetails</a>
         <a href='#about'>Blog</a>
         <a href='#about'>Testimonial</a>
       </div>
-    </navbar>
+    </nav>
   )
 }
 

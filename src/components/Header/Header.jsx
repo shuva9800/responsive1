@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import Navbar from "../Navbar/Navbar";
-// import HeaderImg from "../../assets/Rectangle 8.jpg"
+
 
 export default function Header() {
   return (
