@@ -30,6 +30,7 @@ header .card .course-name{
     font-weight: 800;
     color: #ffffff;
     position: relative;
+    padding-bottom: 30px;
 }
 /* hr{
     width: 60px;
@@ -44,7 +45,7 @@ header .card .course-name::after{
     height: 4px;
     background: var(--red-light);
     left: 0px;
-    bottom: -10px;
+    bottom: 50%;
 }
 header .card .course-heading{
     font-family: "Alegreya";
@@ -52,7 +53,7 @@ header .card .course-heading{
     font-weight: 700;
     line-height: 54px;
     color: #ffffff;
-    padding-bottom: 20px;
+    padding-bottom: 33px;
 }
 header .card .demo-btn{
     border-radius: 10px;

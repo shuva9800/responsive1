@@ -1,0 +1,41 @@
+.testimonils {
+  width: 100%;
+  background: black;
+}
+.testimonils .wrapper {
+  padding: 80px 0px;
+}
+.testimonils .wrapper .testimonils-heading {
+  font-size: 40px;
+  font-weight: 800;
+  color: #ffffff;
+  padding-bottom: 50px;
+  position: relative;
+}
+.testimonils .wrapper .testimonils-heading::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  background: var(--red-light);
+  left: 1%;
+  bottom: 50%;
+}
+.testimonils .wrapper .description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.testimonils .wrapper .description .details {
+  max-width: 260px;
+}
+.testimonils .wrapper .description h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-bottom: 7px;
+}
+.testimonils .wrapper .description p {
+  color: #ffffff;
+  font-size: 16px;
+}
