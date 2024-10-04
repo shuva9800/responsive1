@@ -1,6 +1,6 @@
 .testimonils {
   width: 100%;
-  background: black;
+  background: var(--light-black);
 }
 .testimonils .wrapper {
   padding: 80px 0px;
@@ -39,3 +39,4 @@
   color: #ffffff;
   font-size: 16px;
 }
+
