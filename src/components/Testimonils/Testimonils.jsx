@@ -12,21 +12,27 @@ export default function Testimonils() {
         <div className="description">
           <div className="details">
             <img src={rectangle19} />
-            <h3>Peter Adams</h3>
-            <p>This is a great course. I got to learn a lot.</p>
+            <div className="magic-section">
+              <h3>Peter Adams</h3>
+              <p>This is a great course. I got to learn a lot.</p>
+            </div>
           </div>
           <div className="details">
             <img src={rectangle20} />
-            <h3>Robert Fox</h3>
-            <p>
-              I got to learn a lot about Music Production with this course.
-              Thanks :)
-            </p>
+            <div className="magic-section">
+              <h3>Robert Fox</h3>
+              <p>
+                I got to learn a lot about Music Production with this course.
+                Thanks :)
+              </p>
+            </div>
           </div>
           <div className="details">
             <img src={rectangle21} />
-            <h3>Emily Smith</h3>
-            <p>Awesome! Great job!!</p>
+            <div className="magic-section">
+              <h3>Emily Smith</h3>
+              <p>Awesome! Great job!!</p>
+            </div>
           </div>
         </div>
       </div>

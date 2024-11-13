@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="wrapper">
         <div className="wrapper-footer">
           <div className="footer-details">
-            <p href="#" className="footer-para">
+            <p  className="footer-para">
               Sound <span>DZing</span>
             </p>
             <div className="footer-socialmedia">
@@ -20,14 +20,14 @@ export default function Footer() {
             </div>
           </div>
           <div className="footer-details footer-contant">
-            <p>Quick Links</p>
-            <p>Blog</p>
-            <p>Privacy Policy</p>
+            <p className="links">Quick Links</p>
+            <p className="links-details">Blog</p>
+            <p className="links-details">Privacy Policy</p>
           </div>
           <div className="footer-details footer-contant">
-            <p>Contact Us</p>
-            <p>contact@email.com</p>
-            <p>+9800527110</p>
+            <p className="links">Contact Us</p>
+            <p className="links-details">contact@email.com</p>
+            <p className="links-details">+9800527110</p>
           </div>
         </div>
         <p className="developed-by">

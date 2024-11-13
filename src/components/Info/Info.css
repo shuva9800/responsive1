@@ -1,16 +1,15 @@
 .info {
   width: 100%;
-  height: 380px;
+  padding:90px 0px;
   background: var(--light-black);
 }
 .info .wrapper {
-  width: 100%;
-  height: 100%;
   position: relative;
 }
+
 .info .wrapper .redRectangle {
   position: absolute;
-  top: 10%;
+  top: -5%;
   left: 0%;
 }
 .info .wrapper .info-img {
@@ -19,4 +18,23 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+  .info .wrapper .redRectangle {
+    top: 12%;
+    left: 10%;
+  }
+  .info .wrapper .redRectangle {
+    top: -11%;
+  }
+}
+
+@media (max-width:720px){
+  .info .wrapper .info-img {
+    flex-wrap: wrap;
+    gap: 80px;
+  }
+  .info .wrapper .redRectangle{
+    left: 5%;
+  }
 }

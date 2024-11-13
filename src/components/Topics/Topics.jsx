@@ -25,8 +25,8 @@ const Topics = () => {
           </ul>
           <div className="topics-details-img">
             <img src={image} className="computer-img"/>
-            <img src={rectangle} className="rectangle"/>
           </div>
+          <img src={rectangle} className="rectangle"/>
         </div>
       </div>
     </section>

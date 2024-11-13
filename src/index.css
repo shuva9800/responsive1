@@ -20,7 +20,22 @@ body{
 .wrapper{
   max-width: 1024px;
   margin: 0 auto;
+  width: 100%;
+  height: 100%;
 }
 a{
   text-decoration: none;
+}
+ /* Tablet version */
+@media (max-width:1040px){
+  .wrapper{
+    max-width: 694px;
+  }
+}
+
+/* Smart phone */
+@media (max-width:720px){
+  .wrapper{
+    padding: 0px 32px;
+  }
 }
